@@ -1,4 +1,4 @@
-FROM node:hydrogen-buster
+FROM node:Debian:10
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
